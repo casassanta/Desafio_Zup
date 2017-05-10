@@ -6,7 +6,7 @@ GitHub: https://github.com/casassanta/Desafio_Zup
 Instruções de Execução
 
 1- Inicie o Android Studio e escolha a opcao: "Check out version from Version Control" -> Git
-2- Coloque o nome do repositori: https://github.com/casassanta/Desafio_Zup
+2- Coloque o nome do repositorio: https://github.com/casassanta/Desafio_Zup
 3- Mande clonar.
    
 
@@ -21,5 +21,5 @@ A aplicação é composta de duas telas, SearchMovieActivity e ResultMovieActivt
 5- Caso o filme tenha sido encontrado pela API OMDb, o usuário terá a opção (botão) de adicionar o filme a sua lista (cadastrando-o no banco de dados). E caso o filme tenha sido encontrado no BD, ele poderá removê-lo.
 6- Para voltar à tela de pesquisa, basta apertar o botão de voltar do próprio aparelho android.
 
-A aplicação permite acesso offline para os filmes cadastrados na lista do usuário. Para testar basta desativar a internet do aparelho e acessar a aplicação e você ainda terá acesso a todos os dados da lista “My movies”, incluindo os posters que são baixados para o celular após adicionado à lista.
+A aplicação permite acesso offline para os filmes cadastrados na lista do usuário. Para testar basta desativar a internet do aparelho e acessar a aplicação e você ainda terá acesso a todos os dados da lista “My movies”, incluindo os posters que são baixados para o celular após adicionados à lista.
 

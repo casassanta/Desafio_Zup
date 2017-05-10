@@ -1,0 +1,25 @@
+DESAFIO ZUP
+
+Nome: Guilherme Castilho Casassanta
+GitHub: https://github.com/casassanta/Desafio_Zup
+
+Instruções de Execução
+
+1- Inicie o Android Studio e escolha a opcao: "Check out version from Version Control" -> Git
+2- Coloque o nome do repositori: https://github.com/casassanta/Desafio_Zup
+3- Mande clonar.
+   
+
+Instruções de Teste
+
+A aplicação é composta de duas telas, SearchMovieActivity e ResultMovieActivty. A primeira é onde o usuário pode pesquisar por filmes e a segunda é o resultado do filme pesquisado (exibindo seus dados como título, ano, imagem do poster, duração, gênero, etc).
+
+1- Pesquise por algum filme no campo “movie” da tela (ex: hulk) ou então selecione algum filme já adicionado à lista de “My movies” do usuário;
+2- A aplicação irá procurar o filme na lista “My Movies” (banco de dados) e se não encontrar, irá procurar na API OMDb.
+3- Caso o filme não seja encontrado ou o aparelho esteja sem acesso a internet, uma mensagem será mostrada.
+4- Caso o filme tenha sido encontrado, uma nova tela surgirá com os dados do filme.
+5- Caso o filme tenha sido encontrado pela API OMDb, o usuário terá a opção (botão) de adicionar o filme a sua lista (cadastrando-o no banco de dados). E caso o filme tenha sido encontrado no BD, ele poderá removê-lo.
+6- Para voltar à tela de pesquisa, basta apertar o botão de voltar do próprio aparelho android.
+
+A aplicação permite acesso offline para os filmes cadastrados na lista do usuário. Para testar basta desativar a internet do aparelho e acessar a aplicação e você ainda terá acesso a todos os dados da lista “My movies”, incluindo os posters que são baixados para o celular após adicionado à lista.
+

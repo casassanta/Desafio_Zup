@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    tools:context="com.example.guilherme.desafiozup.SearchMovie.SearchMovieActivity">
+
+
+    <EditText
+        android:id="@+id/txtFilmeTitulo"
+        android:layout_width="305dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="10dp"
+        android:ems="10"
+        android:hint="movie"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+
+    <Button
+        android:id="@+id/btnFilmePesquisar"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:onClick="onClickBtnSearch"
+        android:text="Search"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <TextView
+        android:id="@+id/lbMinhaLista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="My Movies"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+
+    <ListView
+        android:id="@+id/listFilme"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="95dp"
+        android:layout_alignLeft="@+id/txtFilmeTitulo"/>
+
+
+
+</RelativeLayout>
+
+
+
+
